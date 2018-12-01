@@ -25,7 +25,7 @@
   <link href="{{asset("lib/owlcarousel/assets/owl.carousel.min.css")}}" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: TheEvent
@@ -55,12 +55,13 @@
           <li><a href="#about">About</a></li>
           <li><a href="#sponsors">Projects</a></li>
           <li><a href="#speakers">Team</a></li>
-         
+
           <li><a href="#faq">Faqs</a></li>
           <li><a href="#hotels">Projects</a></li>
           <li><a href="#gallery">Gallery</a></li>
-          
+
           <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Blog</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -180,9 +181,9 @@
               </div>
             </div>
           </div>
-          
-         
-          
+
+
+
           <div class="col-lg-4 col-md-6">
             <div class="speaker">
               <img src="{{asset("img/speakers/6.jpg")}}" alt="Speaker 6" class="img-fluid">
@@ -206,13 +207,13 @@
     <!--==========================
       Schedule Section
     ============================-->
-   
+
 
     <!--==========================
       Venue Section
     ============================-->
-   
-    
+
+
     <section id="hotels" class="section-with-bg wow fadeInUp">
 
       <div class="container">
@@ -320,43 +321,43 @@
               <img src="{{asset("img/sponsors/1.png")}}" class="img-fluid" alt="">
             </div>
           </div>
-          
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="sponsor-logo">
               <img src="{{asset("img/sponsors/2.png")}}" class="img-fluid" alt="">
             </div>
           </div>
-        
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="sponsor-logo">
               <img src="{{asset("img/sponsors/3.png")}}" class="img-fluid" alt="">
             </div>
           </div>
-          
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="sponsor-logo">
               <img src="{{asset("img/sponsors/4.png")}}" class="img-fluid" alt="">
             </div>
           </div>
-          
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="sponsor-logo">
               <img src="{{asset("img/sponsors/5.png")}}" class="img-fluid" alt="">
             </div>
           </div>
-        
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="sponsor-logo">
               <img src="{{asset("img/sponsors/6.png")}}" class="img-fluid" alt="">
             </div>
           </div>
-          
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="sponsor-logo">
               <img src="{{asset("img/sponsors/7.png")}}" class="img-fluid" alt="">
             </div>
           </div>
-          
+
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="sponsor-logo">
               <img src="{{asset("img/sponsors/8.png")}}" class="img-fluid" alt="">
@@ -392,7 +393,7 @@
                     </p>
                   </div>
                 </li>
-      
+
                 <li>
                   <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq2" class="collapse" data-parent="#faq-list">
@@ -401,7 +402,7 @@
                     </p>
                   </div>
                 </li>
-      
+
                 <li>
                   <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq3" class="collapse" data-parent="#faq-list">
@@ -410,7 +411,7 @@
                     </p>
                   </div>
                 </li>
-      
+
                 <li>
                   <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq4" class="collapse" data-parent="#faq-list">
@@ -419,7 +420,7 @@
                     </p>
                   </div>
                 </li>
-      
+
                 <li>
                   <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq5" class="collapse" data-parent="#faq-list">
@@ -428,7 +429,7 @@
                     </p>
                   </div>
                 </li>
-      
+
                 <li>
                   <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="fa fa-minus-circle"></i></a>
                   <div id="faq6" class="collapse" data-parent="#faq-list">
@@ -437,7 +438,7 @@
                     </p>
                   </div>
                 </li>
-      
+
               </ul>
           </div>
         </div>
@@ -473,7 +474,7 @@
     <!--==========================
       Buy Ticket Section
     ============================-->
-   
+
 
     <!--==========================
       Contact Section
@@ -617,7 +618,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
         -->
-    
+
       </div>
     </div>
   </footer><!-- #footer -->

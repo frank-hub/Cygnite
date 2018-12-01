@@ -1,0 +1,664 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bg",
+				"bg-primary \tBootstrap 4 Class"
+			],
+			[
+				"text",
+				"text-primary \tBootstrap 4 Class"
+			],
+			[
+				"ml",
+				"ml-2 \tBootstrap 4 Class"
+			],
+			[
+				"mr-lg",
+				"mr-lg-5 \tBootstrap 4 Class"
+			],
+			[
+				"mr-",
+				"mr-sm-3 \tBootstrap 4 Class"
+			],
+			[
+				"mr-auto",
+				"mr-lg-auto \tBootstrap 4 Class"
+			],
+			[
+				"LO",
+				"LOGIN_URL"
+			],
+			[
+				"LOGIN",
+				"LOGIN_REDIRECT_URL"
+			],
+			[
+				"mb",
+				"mb-0 \tBootstrap 4 Class"
+			],
+			[
+				"btn-outline",
+				"btn-outline-info \tBootstrap 4 Class"
+			],
+			[
+				"io",
+				"iostream\tstandard header"
+			],
+			[
+				"is",
+				"is_array"
+			],
+			[
+				"card-t",
+				"card-title \tBootstrap 4 Class"
+			],
+			[
+				"MED",
+				"MEDIA_URL"
+			],
+			[
+				"pb",
+				"pb-3 \tBootstrap 4 Class"
+			],
+			[
+				"pt",
+				"pt-lg-1 \tBootstrap 4 Class"
+			],
+			[
+				"col-md-",
+				"col-md-4 \tBootstrap 4 Class"
+			],
+			[
+				"jsu",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"alert",
+				"alert \tBootstrap 4 Class"
+			],
+			[
+				"form",
+				"form-group \tBootstrap 4 Class"
+			],
+			[
+				"for",
+				"form-group \tBootstrap 4 Class"
+			],
+			[
+				"certificatio",
+				"certification_CHOICES"
+			],
+			[
+				"specia",
+				"speciality"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"num",
+				"num1"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"auto_now",
+				"auto_now_add"
+			],
+			[
+				"Article",
+				"ArticleAdmin"
+			],
+			[
+				"di",
+				"display-4 \tBootstrap 4 Class"
+			],
+			[
+				"arti",
+				"articleID"
+			],
+			[
+				"pro",
+				"props"
+			],
+			[
+				"re",
+				"requestType"
+			],
+			[
+				"ar",
+				"articleID"
+			],
+			[
+				"ro",
+				"Router"
+			],
+			[
+				"Art",
+				"ArticleList"
+			],
+			[
+				"clas",
+				"class\tNew Class"
+			],
+			[
+				"aut",
+				"auto_now"
+			],
+			[
+				"auto",
+				"auto_now_add"
+			],
+			[
+				"db",
+				"db_index"
+			],
+			[
+				"class",
+				"MIDDLEWARE_CLASSES"
+			],
+			[
+				"jus",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"al",
+				"alert-dismissible \tBootstrap 4 Class"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"produ",
+				"products"
+			],
+			[
+				"Rou",
+				"Route::get\tBasic Get Route."
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"pr",
+				"product"
+			],
+			[
+				"ca",
+				"category-full"
+			],
+			[
+				"lay",
+				"layouts/front.blade.php \tBlade Autocomplete"
+			],
+			[
+				"la",
+				"layouts/front.blade.php \tBlade Autocomplete"
+			],
+			[
+				"mt",
+				"mt-3 \tBootstrap 4 Class"
+			],
+			[
+				"St",
+				"Storage"
+			],
+			[
+				"json",
+				"json.dumps\tFlask"
+			],
+			[
+				"connect",
+				"connection"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"regi",
+				"register_blueprint\tFlask"
+			],
+			[
+				"has",
+				"hashed_password"
+			],
+			[
+				"im",
+				"import"
+			],
+			[
+				"Re",
+				"RequestResetForm"
+			],
+			[
+				"Pass",
+				"Password"
+			],
+			[
+				"F",
+				"FlaskForm"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"btn-ou",
+				"btn-outline-info \tBootstrap 4 Class"
+			],
+			[
+				"btn",
+				"btn-danger"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"co",
+				"commit"
+			],
+			[
+				"Pos",
+				"PostForm"
+			],
+			[
+				"media",
+				"media-body"
+			],
+			[
+				"S",
+				"SubmitField"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"pi",
+				"picture_file"
+			],
+			[
+				"save",
+				"save_picture"
+			],
+			[
+				"pict",
+				"picture_fn"
+			],
+			[
+				"pic",
+				"picture_fn"
+			],
+			[
+				"Fil",
+				"FileAllowed"
+			],
+			[
+				"File",
+				"FileField"
+			],
+			[
+				"image",
+				"image_file"
+			],
+			[
+				"next",
+				"next_page"
+			],
+			[
+				"User",
+				"UserMixin"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"E",
+				"EqualTo"
+			],
+			[
+				"Pas",
+				"PasswordField"
+			],
+			[
+				"pos",
+				"posts"
+			],
+			[
+				"__",
+				"__name__"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/sammy/corey/users/apps.py",
+		"/home/sammy/corey/signals.py",
+		"/home/sammy/corey/users/models.py",
+		"/home/sammy/corey/users/admin.py",
+		"/home/sammy/corey/users/templates/users/profile.html",
+		"/home/sammy/corey/djapp/static/djapp/fontawesome-free/css/all.css",
+		"/home/sammy/corey/djapp/templates/djapp/about.html",
+		"/home/sammy/corey/djapp/templates/djapp/base.html",
+		"/home/sammy/corey/corey/settings.py",
+		"/home/sammy/corey/djapp/static/djapp/css/styles.css",
+		"/home/sammy/corey/corey/urls.py",
+		"/home/sammy/health/finder/templates/finder/main.html",
+		"/home/sammy/corey/users/views.py",
+		"/home/sammy/corey/users/templates/users/register.html",
+		"/home/sammy/corey/users/templates/users/logout.html",
+		"/home/sammy/corey/users/templates/users/login.html",
+		"/home/sammy/corey/djapp/templates/djapp/index.html",
+		"/home/sammy/corey/users/forms.py",
+		"/home/sammy/corey/djapp/urls.py",
+		"/home/sammy/rapd/website/templates/website/index.html",
+		"/var/www/Rhino_Watch/resources/views/shop/shopping-cart.blade.php",
+		"/etc/apache2/apache2.conf",
+		"/var/www/karunga-v3/resources/views/accounts/fees/allFeeRegister.blade.php",
+		"/var/www/karunga-v3/.env",
+		"/home/sammy/health/users/signals.py",
+		"/home/sammy/health/users/apps.py",
+		"/home/sammy/health/users/templates/users/register.html",
+		"/home/sammy/health/users/templates/users/login.html",
+		"/home/sammy/health/users/templates/users/logout.html",
+		"/home/sammy/health/health/urls.py",
+		"/home/sammy/health/users/admin.py",
+		"/home/sammy/health/users/models.py",
+		"/home/sammy/health/health/settings.py",
+		"/home/sammy/health/users/forms.py",
+		"/home/sammy/health/hospital/templates/hospital/home.html",
+		"/home/sammy/health/hospital/urls.py",
+		"/home/sammy/health/finder/admin.py",
+		"/home/sammy/health/hospital/admin.py",
+		"/home/sammy/health/hospital/models.py",
+		"/home/sammy/health/finder/views.py",
+		"/home/sammy/health/finder/templates/finder/patient/register.html",
+		"/home/sammy/health/finder/templates/finder/patient/login.html",
+		"/home/sammy/health/finder/templates/finder/doctor/login.html",
+		"/home/sammy/health/finder/templates/finder/map.html",
+		"/home/sammy/health/hospital/views.py",
+		"/home/sammy/health/finder/templates/finder/patient/index.html",
+		"/home/sammy/health/finder/templates/finder/patient/main.html",
+		"/home/sammy/health/finder/models.py",
+		"/home/sammy/health/finder/migrations/0004_auto_20181104_0952.py",
+		"/home/sammy/health/hospital/migrations/0002_auto_20181104_0553.py",
+		"/home/sammy/health/hospital/migrations/0010_auto_20181103_2356.py",
+		"/home/sammy/health/hospital/migrations/0011_auto_20181103_2357.py",
+		"/home/sammy/health/hospital/migrations/0009_auto_20181103_2353.py",
+		"/home/sammy/health/hospital/migrations/0014_auto_20181104_0002.py",
+		"/home/sammy/health/hospital/migrations/0013_auto_20181103_2358.py",
+		"/home/sammy/health/hospital/migrations/0003_doctor_location.py",
+		"/home/sammy/health/hospital/static/hospital/js/map.js",
+		"/home/sammy/health/hospital/static/hospital/css/map.css",
+		"/home/sammy/health/finder/templates/finder/about.html",
+		"/home/sammy/health/finder/templates/finder/index.html",
+		"/home/sammy/health/finder/urls.py",
+		"/home/sammy/health/finder/static/finder/js/style.js",
+		"/home/sammy/health/finder/static/finder/css/style.css",
+		"/home/sammy/corey/djapp/templates/djapp/contact.html",
+		"/var/www/laravel/database/migrations/2018_10_31_095210_create_articles_table.php",
+		"/var/www/laravel/.env",
+		"/var/www/laravel/app/Article.php",
+		"/home/sammy/project/index.html",
+		"/var/www/auth/.env",
+		"/var/www/auth/app/User.php",
+		"/var/www/auth/app/Providers/AuthServiceProvider.php",
+		"/var/www/auth/config/auth.php",
+		"/home/sammy/djreact/backend/src/djreact/urls.py",
+		"/home/sammy/djreact/backend/src/articles/api/serializers.py",
+		"/home/sammy/djreact/backend/src/djreact/settings.py",
+		"/home/sammy/djreact/backend/src/articles/admin.py",
+		"/home/sammy/djreact/backend/src/articles/models.py",
+		"/home/sammy/djreact/frontend/gui/src/containers/ArticleListView.js",
+		"/home/sammy/djreact/frontend/gui/src/routes.js",
+		"/home/sammy/djreact/frontend/gui/src/containers/Layouts.js",
+		"/home/sammy/djreact/frontend/gui/src/components/Article.js",
+		"/home/sammy/djreact/frontend/gui/src/containers/ArticleDetailView.js",
+		"/home/sammy/djreact/frontend/gui/src/App.js",
+		"/home/sammy/djreact/frontend/gui/src/App.css",
+		"/home/sammy/djreact/frontend/gui/package.json",
+		"/home/sammy/djreact/backend/src/articles/api/views.py",
+		"/home/sammy/djreact/backend/src/articles/api/urls.py",
+		"/home/sammy/djreact/backend/src/articles/api/__init__.py",
+		"/var/www/fashion/app/Http/Controllers/CategoriesController.php",
+		"/var/www/fashion/.env",
+		"/home/sammy/ones/fashion/templates/fashion/base.html",
+		"/home/sammy/ones/fashion/templates/product/productDetail.html",
+		"/home/sammy/ones/fashion/templates/product/base.html",
+		"/home/sammy/ones/fashion/templates/product/categories.html",
+		"/home/sammy/ones/fashion/templates/product/list.html",
+		"/home/sammy/ones/fashion/templates/product/navbar.html",
+		"/home/sammy/ones/fashion/views.py",
+		"/home/sammy/ones/fashion/templates/fashion/categories.html",
+		"/home/sammy/ones/fashion/urls.py",
+		"/home/sammy/ones/fashion/models.py",
+		"/home/sammy/ones/ones/urls.py",
+		"/home/sammy/ones/fashion/admin.py",
+		"/home/sammy/ones/ones/settings.py",
+		"/home/sammy/ones/fashion/templatetags/namify.py",
+		"/home/sammy/ones/fashion/templatetags/__init__.py",
+		"/home/sammy/djblog/blog/models.py",
+		"/home/sammy/djblog/djblog/settings.py",
+		"/var/www/fashion/routes/web.php",
+		"/var/www/fashion/app/Category.php",
+		"/var/www/fashion/database/migrations/2018_09_19_093650_create_categories_table.php",
+		"/var/www/fashion/database/migrations/2018_09_27_112939_create_sub_categories_table.php",
+		"/var/www/fashion/app/Http/Controllers/PagesController.php",
+		"/var/www/fashion/app/Http/Controllers/ProductsController.php",
+		"/var/www/fashion/resources/views/front/category.blade.php",
+		"/var/www/fashion/resources/views/front/index.blade.php",
+		"/var/www/fashion/resources/views/layouts/admin.blade.php",
+		"/var/www/fashion/resources/views/admin/products.blade.php",
+		"/home/sammy/Downloads/nex-forum-master/database/migrations/2018_04_04_055518_create_channels_table.php",
+		"/var/www/fashion/resources/views/layouts/front.blade.php",
+		"/home/sammy/Downloads/startbootstrap-sb-admin-gh-pages/index.html",
+		"/var/www/fashion/app/SubCategory.php",
+		"/var/www/fashion/resources/views/admin/messages.blade.php",
+		"/var/www/fashion/resources/views/front/contact.blade.php",
+		"/var/www/fashion/app/Http/Controllers/MessagesController.php",
+		"/var/www/fashion/resources/views/admin/create.blade.php",
+		"/var/www/fashion/app/Rules/Uppercase.php",
+		"/var/www/fashion/app/Message.php",
+		"/var/www/fashion/resources/views/front/detail.blade.php"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 71.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Kernel.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
