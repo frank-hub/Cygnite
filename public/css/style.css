@@ -1015,6 +1015,68 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
 }
 
+
+/*--------------------------------------------------------------
+# Blog Section
+--------------------------------------------------------------*/
+
+#blog {
+  padding: 60px 0;
+}
+
+#blog .hotel {
+  border: 1px solid #e0e5fa;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+#blog .hotel:hover .hotel-img img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#blog .hotel-img {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#blog .hotel-img img {
+  transition: 0.3s ease-in-out;
+}
+
+#blog h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding: 0 20px;
+}
+
+#blog a {
+  color: #152b79;
+}
+
+#blog a:hover {
+  color: #f82249;
+}
+
+#blog .stars {
+  padding: 0 20px;
+  margin-bottom: 5px;
+}
+
+#blog .stars i {
+  color: #ffc31d;
+}
+
+#blog p {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  color: #060c22;
+  font-style: italic;
+  font-size: 15px;
+}
+
+
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/

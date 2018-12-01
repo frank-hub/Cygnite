@@ -61,7 +61,7 @@
           <li><a href="#gallery">Gallery</a></li>
 
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#">Blog</a></li>
+          <li><a href="#blog">Blog</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -300,6 +300,43 @@
         <a href="{{asset("img/gallery/6.jpg")}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset("img/gallery/6.jpg")}}" alt=""></a>
         <a href="{{asset("img/gallery/7.jpg")}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset("img/gallery/7.jpg")}}" alt=""></a>
         <a href="{{asset("img/gallery/8.jpg")}}" class="venobox" data-gall="gallery-carousel"><img src="{{asset("img/gallery/8.jpg")}}" alt=""></a>
+      </div>
+
+    </section>
+
+    <!--==========================
+      Blog Section
+    ============================-->
+
+
+    <section id="blog" class="section-with-bg wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>Blog</h2>
+          <p>Recent Posts</p>
+        </div>
+
+        <div class="row">
+          @foreach($articles->slice(0, 3) as $article)
+          <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="{{asset('/cover_images/'.$article->cover)}}" alt="Hotel 1" class="img-fluid">
+              </div>
+              <h3><a href="{{route('blog.show', $article['id'])}}">{{ $article->title }}</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>{!! str_limit($article->content, 100) !!}</p>
+            </div>
+          </div>
+          @endforeach
+        </div>
       </div>
 
     </section>

@@ -25,6 +25,7 @@
             </tr>
         </thead>
         <tbody>
+            {{-- @forelse($articles->slice(0, 2) as $article) --}}
             @forelse($articles as $article)
             <tr>
                 <th scope="row">{{ $article->id }}</th>

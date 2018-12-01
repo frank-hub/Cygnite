@@ -26,7 +26,7 @@ class ArticlesController extends Controller
      */
     public function index()
     {
-        $articles = Article::all();
+        $articles = Article::orderBy('created_at', 'desc')->get();
         return view('blog.index', compact('articles'));
     }
 
@@ -146,5 +146,11 @@ class ArticlesController extends Controller
         $article = Article::find($id);
         $article->delete();
         return redirect()->route('blog.index')->with('success', 'Article has been  deleted');
+    }
+
+    public function front()
+    {
+        $articles = Article::orderBy('created_at', 'desc')->get();
+        return view('welcome', compact('articles'));
     }
 }
