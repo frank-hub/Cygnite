@@ -11,7 +11,18 @@
 |
 */
 
-Route::get('/', 'ArticlesController@front');
+Route::get('/', 'BlogController@front');
+
+Route::get('/articles', [
+	'uses' => 'BlogController@articles',
+	'as' => 'articles'
+]);
+
+Route::get('{blog}', [
+	'uses' => 'BlogController@blog',
+	'as' => 'post'
+]);
+
 
 Auth::routes();
 

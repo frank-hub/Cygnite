@@ -147,10 +147,4 @@ class ArticlesController extends Controller
         $article->delete();
         return redirect()->route('blog.index')->with('success', 'Article has been  deleted');
     }
-
-    public function front()
-    {
-        $articles = Article::orderBy('created_at', 'desc')->get();
-        return view('welcome', compact('articles'));
-    }
 }
