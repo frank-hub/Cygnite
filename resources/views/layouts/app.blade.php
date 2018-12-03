@@ -60,7 +60,13 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                        <!-- Authentication Links -->
+                        @guest
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}"><i class="fa fa-sign-in fa-1.5x"></i> {{ __('Login') }}</a>
+                            </li>
+                        @else
+                            <li class="nav-item">
                                 <!-- <a class="nav-link btn btn-outline-info mr-3" href="{{ route('blog.create') }}"><i class="fa fa-plus fa-1.5x"></i> Create Article</a> -->
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-outline-primary mr-3" data-toggle="modal" data-target="#exampleModal">
@@ -102,17 +108,6 @@
                                   </div>
                                 </div>
                             </li>
-                        <!-- Authentication Links -->
-                        @guest
-                            {{-- <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}"><i class="fa fa-sign-in fa-1.5x"></i> {{ __('Login') }}</a>
-                            </li>
-                            <li class="nav-item">
-                                @if (Route::has('register'))
-                                    <a class="nav-link" href="{{ route('register') }}"><i class="fa fa-user-plus fa-1.5x"></i> {{ __('Register') }}</a>
-                                @endif
-                            </li> --}}
-                        @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     <i class="fa fa-user-circle-o fa-1.8x"></i> {{ Auth::user()->name }} <span class="caret"></span>

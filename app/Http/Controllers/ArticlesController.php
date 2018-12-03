@@ -19,24 +19,6 @@ class ArticlesController extends Controller
         return view('blog.index', compact('articles'));
     }
 
-    public function front()
-    {
-        $articles = Article::orderBy('created_at', 'desc')->get();
-        return view('welcome', compact('articles'));
-    }
-
-    public function articles()
-    {
-        $articles = Article::orderBy('created_at', 'desc')->get();
-        return view('articles', compact('articles'));
-    }
-
-    public function article($id)
-    {
-        $article = Article::findOrFail($id);
-        return view('post', compact('article'));
-    }
-
     /**
      * Show the form for creating a new resource.
      *
