@@ -4,20 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Article;
-use App\User;
-use Auth;
 
 class ArticlesController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
 
     /**
      * Display a listing of the resource.
@@ -26,8 +15,26 @@ class ArticlesController extends Controller
      */
     public function index()
     {
-        $articles = Article::orderBy('created_at', 'desc')->get();
+        $articles = Article::paginate(5);
         return view('blog.index', compact('articles'));
+    }
+
+    public function front()
+    {
+        $articles = Article::orderBy('created_at', 'desc')->get();
+        return view('welcome', compact('articles'));
+    }
+
+    public function articles()
+    {
+        $articles = Article::orderBy('created_at', 'desc')->get();
+        return view('articles', compact('articles'));
+    }
+
+    public function article($id)
+    {
+        $article = Article::findOrFail($id);
+        return view('post', compact('article'));
     }
 
     /**
@@ -67,7 +74,6 @@ class ArticlesController extends Controller
         $article = new Article([
             'title' => $request->get('title'),
             'content' => $request->get('content'),
-            'user_id' => Auth::id(),
             'cover'=> $request->get('cover'),
             'cover'=>$fileNameToStore
         ]);
@@ -147,4 +153,5 @@ class ArticlesController extends Controller
         $article->delete();
         return redirect()->route('blog.index')->with('success', 'Article has been  deleted');
     }
+
 }

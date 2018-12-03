@@ -32,7 +32,7 @@
                 <td><a href="{{route('blog.show', $article['id'])}}">{{ $article->title }}</a></td>
                 <td>{!! str_limit($article->content, 150) !!}</td>
                 <td>
-                    <img src="{{asset('/cover_images/'.$article->cover)}}" style="width: 100px; height: 100px">
+                    <img src="{{asset('/cover_images/'.$article['cover'])}}" style="width: 100px; height: 100px">
                 </td>
                 <td><a href="{{route('blog.show', $article['id'])}}" class="btn btn-outline-info">View</a></td>
                 <td><a href="{{action('ArticlesController@edit', $article['id'])}}" class="btn btn-outline-warning">Edit</a></td>

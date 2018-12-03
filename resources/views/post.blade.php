@@ -57,12 +57,12 @@
           <div class="container justify-content-center">
               <div class="card mb-3">
                   <figure class="figure">
-                      <img class="card-img-top img-fluid rounded mx-auto d-block" src="{{asset('/cover_images/'.$article->cover)}}" alt="Card image cap" style="width: 100%; height:50rem; object-fit:cover;">
+                      <img class="card-img-top img-fluid rounded mx-auto d-block" src="{{asset('/cover_images/'.$article['cover'])}}" alt="Card image cap" style="width: 100%; height:50rem; object-fit:cover;">
                   </figure>
                 <div class="card-body">
-                  <h5 class="card-title">{{ $article->title }}</h5>
-                  <p class="card-text">{{ $article->content }}</p>
-                  <p class="card-text"><small class="text-muted">{{ date_format($article->created_at,'d M, Y H:i')  }}</small></p>
+                  <h5 class="card-title">{{ $article['title'] }}</h5>
+                  <p class="card-text">{{ $article['content'] }}</p>
+                  <p class="card-text"><small class="text-muted">{{ (new DateTime($article['created_at']))->format('F d,Y')  }}</small></p>
                 </div>
               </div>
           </div>

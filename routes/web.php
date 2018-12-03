@@ -11,21 +11,15 @@
 |
 */
 
-Route::get('/', 'BlogController@front');
-
-Route::get('/articles', [
-	'uses' => 'BlogController@articles',
-	'as' => 'articles'
-]);
-
-Route::get('{blog}', [
-	'uses' => 'BlogController@blog',
-	'as' => 'post'
-]);
-
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('blog', 'ArticlesController');
+
+Route::get('/', 'BlogController@front');
+
+Route::get('/articles', 'BlogController@articles')->name('articles');
+
+Route::get('/{article}', 'BlogController@article')->name('post');

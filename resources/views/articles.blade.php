@@ -54,19 +54,26 @@
     ============================-->
 
 
-    <section id="blog" class="section-with-bg wow fadeInUp">
+    <section id="blog1" class="section-with-bg wow fadeInUp">
 
       <div class="container">
 
         <div class="row">
           @foreach($articles as $article)
           <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
+            <div class="hotel1">
+              <div class="hotel1-img">
                 <img src="{{asset('/cover_images/'.$article->cover)}}" alt="Hotel 1" class="img-fluid">
               </div>
               <h3><a href="{{route('post', $article['id'])}}">{{ $article->title }}</a></h3>
-              <p>{{ $article->content }}</p>
+              <p class="mb-3">{{ $article->content }}</p>
+              <div class="container">
+                <div class="row justify-content-md-center">
+                  <div class="col col-md-auto">
+                    <a href="{{route('post', $article['id'])}}" class="blog1-btn scrollto align-content-center"> Read more</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           @endforeach

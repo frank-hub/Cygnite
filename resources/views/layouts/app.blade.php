@@ -10,7 +10,7 @@
     <title>Cygnite</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
 
     <script src="{{asset("lib/easing/easing.min.js")}}"></script>
     <script src="{{asset("lib/superfish/hoverIntent.js")}}"></script>
@@ -40,14 +40,6 @@
 
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
-
-    @include('ckfinder::setup')
-    <style media="screen">
-    CKFinder.widget( 'ckfinder-widget', {
-        width: '100%',
-        height: 700
-    } );
-    </style>
 </head>
 <body>
     <div id="app">
@@ -68,18 +60,7 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                        <!-- Authentication Links -->
-                        @guest
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}"><i class="fa fa-sign-in fa-1.5x"></i> {{ __('Login') }}</a>
-                            </li>
-                            <li class="nav-item">
-                                @if (Route::has('register'))
-                                    <a class="nav-link" href="{{ route('register') }}"><i class="fa fa-user-plus fa-1.5x"></i> {{ __('Register') }}</a>
-                                @endif
-                            </li>
-                        @else
-                            <li class="nav-item">
+                        <li class="nav-item">
                                 <!-- <a class="nav-link btn btn-outline-info mr-3" href="{{ route('blog.create') }}"><i class="fa fa-plus fa-1.5x"></i> Create Article</a> -->
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-outline-primary mr-3" data-toggle="modal" data-target="#exampleModal">
@@ -121,6 +102,17 @@
                                   </div>
                                 </div>
                             </li>
+                        <!-- Authentication Links -->
+                        @guest
+                            {{-- <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}"><i class="fa fa-sign-in fa-1.5x"></i> {{ __('Login') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                @if (Route::has('register'))
+                                    <a class="nav-link" href="{{ route('register') }}"><i class="fa fa-user-plus fa-1.5x"></i> {{ __('Register') }}</a>
+                                @endif
+                            </li> --}}
+                        @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     <i class="fa fa-user-circle-o fa-1.8x"></i> {{ Auth::user()->name }} <span class="caret"></span>
@@ -148,9 +140,5 @@
             @yield('content')
         </main>
     </div>
-{{--     <script src="{{ asset("vendor/unisharp/laravel-ckeditor/ckeditor.js") }}"></script>
-    <script>
-        CKEDITOR.replace( 'summary-ckeditor' );
-    </script> --}}
 </body>
 </html>

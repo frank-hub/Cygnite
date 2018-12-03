@@ -1,6 +1,69 @@
-@extends('layouts.main')
+<!DOCTYPE html>
+<html lang="en">
 
-@section('body')
+<head>
+  <meta charset="utf-8">
+  <title>TheEvent - Bootstrap Event Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="{{asset("img/favicon.png")}}" rel="icon">
+  <link href="{{asset("img/apple-touch-icon.png")}}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="{{asset("lib/bootstrap/css/bootstrap.min.css")}}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="{{asset("lib/font-awesome/css/font-awesome.min.css")}}" rel="stylesheet">
+  <link href="{{asset("lib/animate/animate.min.css")}}" rel="stylesheet">
+  <link href="{{asset("lib/venobox/venobox.css")}}" rel="stylesheet">
+  <link href="{{asset("lib/owlcarousel/assets/owl.carousel.min.css")}}" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="{{asset('css/style.css')}}" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: TheEvent
+    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
+      <a href="#intro" class="scrollto"><img src="{{asset('/img/intro-c.png')}}" alt="" title=""></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#sponsors">Projects</a></li>
+          <li><a href="#speakers">Team</a></li>
+
+          <li><a href="#faq">Faqs</a></li>
+          <li><a href="#hotels">Projects</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#blog1">Blog</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
 
   <!--==========================
     Intro Section
@@ -244,7 +307,7 @@
     ============================-->
 
 
-    <section id="blog" class="section-with-bg wow fadeInUp">
+    <section id="blog1" class="section-with-bg wow fadeInUp">
 
       <div class="container">
         <div class="section-header">
@@ -255,8 +318,8 @@
         <div class="row">
           @foreach($articles->slice(0, 3) as $article)
           <div class="col-lg-4 col-md-6">
-            <div class="hotel">
-              <div class="hotel-img">
+            <div class="hotel1">
+              <div class="hotel1-img">
                 <img src="{{asset('/cover_images/'.$article->cover)}}" alt="Hotel 1" class="img-fluid">
               </div>
               <h3><a href="{{route('post', $article['id'])}}">{{ $article->title }}</a></h3>
@@ -273,7 +336,7 @@
       <div class="container">
         <div class="row justify-content-md-center">
           <div class="col col-md-auto">
-            <a href="{{ route('articles') }}" class="blog-btn scrollto align-content-center"> Read All Articles</a>
+            <a href="{{ route('articles') }}" class="blog1-btn scrollto align-content-center"> Read All Articles</a>
           </div>
         </div>
       </div>
@@ -523,5 +586,100 @@
     </section><!-- #contact -->
 
   </main>
+   <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
 
- @endsection
+          <div class="col-lg-3 col-md-6 footer-info">
+            <img src="{{asset("img/intro-c.jpg")}}" alt="Cygnite">
+            <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              We are at <br>
+             Kenya<br>
+              Here <br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@cygnite.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Cygnite Limited</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+        -->
+
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="{{asset("lib/jquery/jquery.min.js")}}"></script>
+  <script src="{{asset("lib/jquery/jquery-migrate.min.js")}}"></script>
+  <script src="{{asset("lib/bootstrap/js/bootstrap.bundle.min.js")}}"></script>
+  <script src="{{asset("lib/easing/easing.min.js")}}"></script>
+  <script src="{{asset("lib/superfish/hoverIntent.js")}}"></script>
+  <script src="{{asset("lib/superfish/superfish.min.js")}}"></script>
+  <script src="{{asset("lib/wow/wow.min.js")}}"></script>
+  <script src="{{asset("lib/venobox/venobox.min.js")}}"></script>
+  <script src="{{asset("lib/owlcarousel/owl.carousel.min.js")}}"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="{{asset("contactform/contactform.js")}}"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="{{asset("js/main.js")}}"></script>
+
+  </body>
+
+</html>

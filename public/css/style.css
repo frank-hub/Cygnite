@@ -1181,55 +1181,55 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Blog Section
 --------------------------------------------------------------*/
 
-#blog {
+#blog1 {
   padding: 60px 0;
 }
 
-#blog .hotel {
+#blog1 .hotel1 {
   border: 1px solid #e0e5fa;
   background: #fff;
   margin-bottom: 30px;
 }
 
-#blog .hotel:hover .hotel-img img {
+#blog1 .hotel1:hover .hotel1-img img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-#blog .hotel-img {
+#blog1 .hotel1-img {
   overflow: hidden;
   margin-bottom: 15px;
 }
 
-#blog .hotel-img img {
+#blog1 .hotel1-img img {
   transition: 0.3s ease-in-out;
 }
 
-#blog h3 {
+#blog1 h3 {
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 5px;
   padding: 0 20px;
 }
 
-#blog a {
+#blog1 a {
   color: #152b79;
 }
 
-#blog a:hover {
+#blog1 a:hover {
   color: #f82249;
 }
 
-#blog .stars {
+#blog1 .stars {
   padding: 0 20px;
   margin-bottom: 5px;
 }
 
-#blog .stars i {
+#blog1 .stars i {
   color: #ffc31d;
 }
 
-#blog p {
+#blog1 p {
   padding: 0 20px;
   margin-bottom: 20px;
   color: #060c22;
@@ -1237,7 +1237,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
 }
 
-#blog button {
+#blog1 button {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
@@ -1249,11 +1249,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
 }
 
-#blog button:hover {
+#blog1 button:hover {
   background: #e0072f;
 }
 
-#blog .blog-btn {
+#blog1 .blog1-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -1267,11 +1267,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #000;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #e29930;
+  border: 2px solid #152b79;
 }
 
-#blog .blog-btn:hover {
-  background: #e29930;
+#blog1 .blog1-btn:hover {
+  background: #152b79;
   color: #fff;
 }
 

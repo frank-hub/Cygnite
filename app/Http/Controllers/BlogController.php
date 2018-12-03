@@ -19,9 +19,9 @@ class BlogController extends Controller
         return view('articles', compact('articles'));
     }
 
-    public function blog($id)
+    public function article($id)
     {
         $article = Article::find($id);
-        return view('post', ['article' => $article]);
+        return view('post', compact('article'));
     }
 }
