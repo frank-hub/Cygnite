@@ -40,7 +40,7 @@ class ArticlesController extends Controller
         $request->validate([
             'title'=> 'required',
             'content'=>'required',
-            'cover' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+            // 'cover' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
         ]);
 
         if($request->hasFile('cover')) {

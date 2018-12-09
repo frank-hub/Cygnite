@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TheEvent - Bootstrap Event Template</title>
+  <title>Cygnite LTD Consultants</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -71,7 +71,9 @@
   <section id="intro">
     <div class="intro-container wow fadeIn">
       <h1 class="mb-4 pb-0">Cygnite<br><span>LTD</span> Consultants</h1>
-      <p class="mb-4 pb-0">RAndom text</p>
+      <p class="mb-4 pb-0 text-center">We believe that Africa is the next frontier for cloud, <br>
+         mobility, big data & analytics and cyber security. <br> We want to be a part of this unfolding 
+        story. Our focus is on entities and clients in Africa.</p>
       <a href="" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
       <a href="#about" class="about-btn scrollto">About cygnite</a>
@@ -87,44 +89,51 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h2>Cygnite</h2>
-            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.</p>
+            <h2>WHO WE ARE</h2>
+            <p>Cygnite is an indigenous company with a global mind-set.
+               Our team reflects global backgrounds and global experience.
+                Our solutions reflect local realities and are customized
+                 to local circumstances.</p>
           </div>
           <div class="col-lg-3">
             <h3>Location</h3>
             <p>Downtown Conference Center, New York</p>
           </div>
           <div class="col-lg-3">
-            <h3>When</h3>
-            <p>d nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.</p>
+            <h3>WE ARE BIG ON DATA AND COMMON SENSE</h3>
+            <p>We are a forward-looking company. We aim to provide unparalleled solutions 
+              for our clients.
+               We use research and data to identify trends, needs and opportunities.</p>
           </div>
         </div>
          <div class="row">
           <div class="col-lg-6">
-            <h2>RAndom Text</h2>
-            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.</p>
+            <h2>WE VALUE OUR PEOPLE</h2>
+            <p>
+                Cygnite is nothing more than the people who make it up. Our people are our 
+                most important asset. Ours is an extraordinary place to work, for our people.
+                 We encourage all our people to foster a working environment that is
+                  consistent with this.
+            </p>
           </div>
           <div class="col-lg-3">
             <h3>Where</h3>
             <p>Downtown Conference Center, New York</p>
           </div>
           <div class="col-lg-3">
-            <h3>When</h3>
-            <p>Monday to Wednesday<br>10-12 December</p>
+            <h3>WE PLAY IN AFRICA</h3>
+            <p>We believe that Africa is the next frontier for cloud, mobility, big data & analytics and cyber security. We want to be a part of this unfolding story. Our focus is on entities and clients in Africa.</p>
           </div>
         </div>
          <div class="row">
           <div class="col-lg-6">
-            <h2>About The Event</h2>
-            <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-              accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-              est ut optio sequi unde.</p>
+            <h2>WE BRING YOU SOUND EXPERIENCE</h2>
+            <p>
+                Our principals have at least thirty-five years cumulative experience 
+                in technology. Experience in IT strategy, infrastructure, regulation 
+                of technology, sourcing, IT project management. They have worked for many world-class 
+                clients across many industry sectors in Europe, Middle East and Africa.
+            </p>
           </div>
           <div class="col-lg-3">
             <h3>Where</h3>
