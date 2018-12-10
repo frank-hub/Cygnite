@@ -15,6 +15,9 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
+  {{-- Fontawesome --}}
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
   <!-- Bootstrap CSS File -->
   <link href="{{asset("lib/bootstrap/css/bootstrap.min.css")}}" rel="stylesheet">
 
@@ -97,7 +100,8 @@
           </div>
           <div class="col-lg-3">
             <h3>Location</h3>
-            <p>Downtown Conference Center, New York</p>
+            <p>2nd Floor, Adlife Plaza, Axelr8, Ring Road Kilimani  
+                Nairobi, Kenya</p>
           </div>
           <div class="col-lg-3">
             <h3>WE ARE BIG ON DATA AND COMMON SENSE</h3>
@@ -140,8 +144,13 @@
             <p>Downtown Conference Center, New York</p>
           </div>
           <div class="col-lg-3">
-            <h3>When</h3>
-            <p>Monday to Wednesday<br>10-12 December</p>
+            <h3>Social Media</h3>
+            <p>
+            <a href="https://web.facebook.com/" class="h4" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://web.facebook.com/" class="h4" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://web.whatsapp.com/send?phone=+254717353774&text=Hello%20I%20need%20to%20talk%20to%20someone" target="_blank" class="h4"><i class="fa fa-whatsapp"></i></a>
+             
+            </p>
           </div>
         </div>
       </div>
@@ -534,7 +543,7 @@
 
         <div class="section-header">
           <h2>Contact Us</h2>
-          <p>Nihil officia ut sint molestiae tenetur.</p>
+          <p>Reach Out To Us</p>
         </div>
 
         <div class="row contact-info">
@@ -543,7 +552,7 @@
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
               <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
+              <address>P.O Box 42713 – 00100</address>
             </div>
           </div>
 
@@ -551,7 +560,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+              <p><a href="tel:+254206000449">+254 20 6000449</a></p>
             </div>
           </div>
 
@@ -559,7 +568,7 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p><a href="mailto:info@cygnite.co.ke">info@cygnite.co.ke</a></p>
             </div>
           </div>
 
@@ -636,7 +645,7 @@
               We are at <br>
              Kenya<br>
               Here <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Phone:</strong> +254 20 6000449<br>
               <strong>Email:</strong> info@cygnite.com<br>
             </p>
 
