@@ -20,6 +20,16 @@ Route::resource('blog', 'ArticlesController')->middleware('auth');
 
 Route::get('/', 'BlogController@front');
 
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});
+
+Route::get('/dashboard/index','BlogController@index');
+
 Route::get('/articles', 'BlogController@articles')->name('articles');
 
 Route::get('/{article}', 'BlogController@article')->name('post');
+
+Route::get('/{id}', 'RegisterController@article')->name('post');
+
+Route::get('dashboard/delete/{id}','HomeController@destroy');

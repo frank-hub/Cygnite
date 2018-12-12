@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Article;
+use App\User;
 
 class BlogController extends Controller
 {
@@ -23,5 +24,10 @@ class BlogController extends Controller
     {
         $article = Article::find($id);
         return view('post', compact('article'));
+    }
+
+    public function index(){
+        $users = User::get();
+        return view('auth/members/index',compact('users'));
     }
 }

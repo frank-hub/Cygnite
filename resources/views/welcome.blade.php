@@ -30,12 +30,83 @@
   <!-- Main Stylesheet File -->
   <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: TheEvent
-    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
+<style>
+ .profile_card{
+            border-width:0 2px 0 2px;
+            border-style: groove;
+            border-color: #FF3E78;
+            position:relative;
+        }
+        .profile_card .profile_img img{
+            width:100%;
+            height:auto;
+        }
+        .profile_card .profile_img .profile_img_content{
+            position: absolute;
+            width:100%;
+            height:100%;
+            left:0;
+            top:0;
+            color:#fff;
+            padding:20% 3% 10% 3%;
+            text-align:center;
+        }
+        .profile_card
+        .profile_img
+        .profile_img_content h2{
+            position:relative;
+            top:50%;
+            font-size:20px;
+            text-transform:capitalize;
+            transition: all 0.50s linear 0s;
+        }
+        .profile_card:hover .profile_img_content h2{
+            top:80%;
+        }
+        .profile_card
+        .profile_img
+        .profile_img_content h2 > span{
+            font-size:18px;
+            display: block;
+            margin:10px 0;
+            color:#fff;
+            text-transform:uppercase;
+        }
+        .profile_card .profile_img .profile_img_content .social_link{
+            margin:0;
+            padding:80px 0;
+            transform: translateY(0);
+            transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.20s;
+        }
+        .profile_card:hover .profile_img .profile_img_content .social_link{
+            transform: translateY(20%);
+        }
+        .profile_card
+        .profile_img
+        .profile_img_content
+        .social_link li{
+            list-style: none;
+            margin:0 15px;
+            display: inline-block;
+        }
+        .profile_card
+        .profile_img
+        .profile_img_content
+        .social_link li a{
+            width:50px;
+            height:50px;
+            /* color:#FF3E78; */
+            font-size:20px;
+            line-height:50px;
+            text-align:center;
+            /* border: 2px dashed #FF3E78; */
+            background: #e29930;
+            transition: all 0.50s linear 0s;
+        }
+        .profile_card:hover .social_link li a{
+            text-decoration:none;
+        }
+</style>
 </head>
 
 <!--==========================
@@ -46,7 +117,7 @@
 
       <div id="logo" class="pull-left">
         <!-- Uncomment below if you prefer to use a text logo -->
-        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
+        <h1><a href="#main">CYG<span>N</span>ITE</a></h1>
       <a href="#intro" class="scrollto"><img src="{{asset('/img/intro-c.png')}}" alt="" title=""></a>
       </div>
 
@@ -79,9 +150,54 @@
         story. Our focus is on entities and clients in Africa.</p>
       <a href="" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
-      <a href="#about" class="about-btn scrollto">About cygnite</a>
+      <a href="#abouts" class="about-btn scrollto">About cygnite</a>
     </div>
   </section>
+<div class="container" id="abouts">
+    <div class="section-header" style="margin-bottom: 10px;padding-bottom: 5px;">
+        <h2>About Cygnite</h2>
+      </div>
+  <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="{{asset('img/about-bg.jpg')}}" class="img-fluid" alt="">
+          <div class="card-body">
+            <h3>WHO WE ARE</h3>
+            Cygnite is nothing more than the people who make it up. Our people are our most important 
+            asset. Ours is an extraordinary place to work, for our people. 
+            We encourage all our people to foster a working environment that is consistent with this.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="{{asset('img/about-bg.jpg')}}" class="img-fluid" alt="">
+          <div class="card-body">
+            <h3>WE VALUE OUR PEOPLE</h3>
+            Cygnite is nothing more than the people who make it up. Our people are our 
+            most important asset. Ours is an extraordinary place to work, for our people.
+             We encourage 
+            all our people to foster a working environment that is consistent with this.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="{{asset('img/about-bg.jpg')}}" class="img-fluid" alt="">
+          <div class="card-body">
+            <h3>WE BRING YOU SOUND EXPERIENCE</h3>
+            Our principals have at least thirty-five years cumulative experience in technology.
+             Experience in IT strategy, infrastructure, regulation of technology, sourcing, IT
+              project management. They have worked for 
+            many world-class clients across many industry sectors in Europe, Middle East and Africa.
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+ 
 
   <main id="main">
 
@@ -90,69 +206,27 @@
     ============================-->
     <section id="about">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h2>WHO WE ARE</h2>
-            <p>Cygnite is an indigenous company with a global mind-set.
-               Our team reflects global backgrounds and global experience.
-                Our solutions reflect local realities and are customized
-                 to local circumstances.</p>
-          </div>
-          <div class="col-lg-3">
-            <h3>Location</h3>
-            <p>2nd Floor, Adlife Plaza, Axelr8, Ring Road Kilimani  
-                Nairobi, Kenya</p>
-          </div>
-          <div class="col-lg-3">
-            <h3>WE ARE BIG ON DATA AND COMMON SENSE</h3>
-            <p>We are a forward-looking company. We aim to provide unparalleled solutions 
-              for our clients.
-               We use research and data to identify trends, needs and opportunities.</p>
-          </div>
-        </div>
          <div class="row">
           <div class="col-lg-6">
-            <h2>WE VALUE OUR PEOPLE</h2>
-            <p>
-                Cygnite is nothing more than the people who make it up. Our people are our 
-                most important asset. Ours is an extraordinary place to work, for our people.
-                 We encourage all our people to foster a working environment that is
-                  consistent with this.
-            </p>
-          </div>
-          <div class="col-lg-3">
-            <h3>Where</h3>
-            <p>Downtown Conference Center, New York</p>
-          </div>
-          <div class="col-lg-3">
             <h3>WE PLAY IN AFRICA</h3>
             <p>We believe that Africa is the next frontier for cloud, mobility, big data & analytics and cyber security. We want to be a part of this unfolding story. Our focus is on entities and clients in Africa.</p>
           </div>
-        </div>
-         <div class="row">
           <div class="col-lg-6">
-            <h2>WE BRING YOU SOUND EXPERIENCE</h2>
-            <p>
-                Our principals have at least thirty-five years cumulative experience 
-                in technology. Experience in IT strategy, infrastructure, regulation 
-                of technology, sourcing, IT project management. They have worked for many world-class 
-                clients across many industry sectors in Europe, Middle East and Africa.
-            </p>
+              <h3>WE ARE BIG ON DATA AND COMMON SENSE</h3>
+              <p>We are a forward-looking company. We aim to provide unparalleled solutions 
+                for our clients.
+                 We use research and data to identify trends, needs and opportunities.</p>
           </div>
-          <div class="col-lg-3">
-            <h3>Where</h3>
-            <p>Downtown Conference Center, New York</p>
-          </div>
-          <div class="col-lg-3">
+        </div>
+        <div class="col-lg-12 text-center ">
             <h3>Social Media</h3>
-            <p>
-            <a href="https://web.facebook.com/" class="h4" target="_blank"><i class="fa fa-facebook"></i></a>
-            <a href="https://web.facebook.com/" class="h4" target="_blank"><i class="fa fa-twitter"></i></a>
-            <a href="https://web.whatsapp.com/send?phone=+254717353774&text=Hello%20I%20need%20to%20talk%20to%20someone" target="_blank" class="h4"><i class="fa fa-whatsapp"></i></a>
+            <p >
+            <a href="https://web.facebook.com/" style="font-size: 40px" target="_blank"><i class="fa fa-facebook"></i></a>--
+            <a href="https://web.twitter.com/" style="font-size: 40px" target="_blank"><i class="fa fa-twitter"></i></a>--
+            <a href="https://web.whatsapp.com/send?phone=+254717353774&text=Hello%20I%20need%20to%20talk%20to%20someone" target="_blank" style="font-size: 40px"><i class="fa fa-whatsapp"></i></a>
              
             </p>
           </div>
-        </div>
       </div>
     </section>
 
@@ -165,56 +239,58 @@
           <h2>Cygnite Team</h2>
           <p>Our team is composed of </p>
         </div>
-
         <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="{{asset("img/speakers/1.jpg")}}" alt="Speaker 1" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html">Brenden Legros</a></h3>
-                <p>Quas alias incidunt</p>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+            <div class="col-sm-6 col-md-4">
+                <div class="profile_card">
+                    <div class="profile_img">
+                        <img src="img/speakers/1.jpg" alt="Profile_card"/>
+                        <div class="profile_img_content">
+                            <h2>Eslam Adel
+                                <span>UI/UX Designer & UI Developer</span>
+                            </h2>
+                            <ul class="social_link">
+                                <li><a href="" class="fa fa-facebook" style="color: #3b5998;"></a></li>
+                                <li><a href="" class="fa fa-twitter" style="color: #55acee;"></a></li>
+                                <li><a href="" class="fa fa-google" style="color: #dc4e41;"></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="{{asset("img/speakers/2.jpg")}}" alt="Speaker 2" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html">Hubert Hirthe</a></h3>
-                <p>Consequuntur odio aut</p>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+            <div class="col-sm-6 col-md-4">
+                <div class="profile_card">
+                    <div class="profile_img">
+                        <img src="img/speakers/2.jpg" alt="Profile_card"/>
+                        <div class="profile_img_content">
+                            <h2>Eslam Adel
+                                <span>UI/UX Designer & UI Developer</span>
+                            </h2>
+                            <ul class="social_link">
+                              <li><a href="" class="fa fa-facebook" style="color: #3b5998;"></a></li>
+                              <li><a href="" class="fa fa-twitter" style="color: #55acee;"></a></li>
+                              <li><a href="" class="fa fa-google" style="color: #dc4e41;"></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-
-
-
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
-              <img src="{{asset("img/speakers/6.jpg")}}" alt="Speaker 6" class="img-fluid">
-              <div class="details">
-                <h3><a href="speaker-details.html">Willow Trantow</a></h3>
-                <p>Non autem dicta</p>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+            <div class="col-sm-6 col-md-4">
+                <div class="profile_card">
+                    <div class="profile_img">
+                        <img src="img/speakers/3.jpg" alt="Profile_card"/>
+                        <div class="profile_img_content">
+                            <h2>Eslam Adel
+                                <span>UI/UX Designer & UI Developer</span>
+                            </h2>
+                            <ul class="social_link">
+                              <li><a href="" class="fa fa-facebook" style="color: #3b5998;"></a></li>
+                              <li><a href="" class="fa fa-twitter" style="color: #55acee;"></a></li>
+                              <li><a href="" class="fa fa-google" style="color: #dc4e41;"></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
       </div>
 
@@ -338,7 +414,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="hotel1">
               <div class="hotel1-img">
-                <img src="{{asset('/cover_images/'.$article->cover)}}" alt="Hotel 1" class="img-fluid">
+                <img src="{{asset('cover_images/'.$article->cover)}}" alt="Hotel 1" class="img-fluid">
               </div>
               <h3><a href="{{route('post', $article['id'])}}">{{ $article->title }}</a></h3>
               <p>{!! str_limit($article->content, 100) !!}</p>
